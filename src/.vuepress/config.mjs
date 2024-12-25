@@ -9,7 +9,7 @@ export default defineUserConfig({
   title: "趣浪吧",
   description: "趣浪吧-轻松制作短视频",
   base: "/",
-  public: "docs/public",
+  public: "src/public",
   theme: defaultTheme({
     // logo :"/imgs/logo.png",
     navbar: [

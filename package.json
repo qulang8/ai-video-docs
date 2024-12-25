@@ -4,8 +4,8 @@
   "description": "趣浪吧-轻松制作短视频",
   "license": "ISC",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src -d ./docs"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.19",
