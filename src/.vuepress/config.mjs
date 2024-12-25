@@ -8,7 +8,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "趣浪吧",
   description: "趣浪吧-轻松制作短视频",
-  base: "/ai-video-docs/",
+  base: "/",
   public: "src/public",
   theme: defaultTheme({
     // logo :"/imgs/logo.png",
