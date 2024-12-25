@@ -3,15 +3,15 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite';
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 
-
+const isProd = process.env.NODE_ENV === "production";
+debugger
 export default defineUserConfig({
   lang: "zh-CN",
   title: "趣浪吧",
   description: "趣浪吧-轻松制作短视频",
-  base: "/",
+  base: isProd ? "/ai-video-docs/" : "/",
   public: "src/public",
   theme: defaultTheme({
-    // logo :"/imgs/logo.png",
     navbar: [
       "/",
       {
