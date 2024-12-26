@@ -1,40 +1,50 @@
-import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
+import { plumeTheme } from 'vuepress-theme-plume'
 import { viteBundler } from '@vuepress/bundler-vite';
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 
 const isProd = process.env.NODE_ENV === "production";
-debugger
+
 export default defineUserConfig({
   lang: "zh-CN",
   title: "趣浪吧",
   description: "趣浪吧-轻松制作短视频",
   base: isProd ? "/ai-video-docs/" : "/",
   public: "src/public",
-  theme: defaultTheme({
+  theme: plumeTheme({
     navbar: [
-      "/",
+      {
+        text: "首页",
+        link: "/",
+        icon: "mynaui:home"
+      },
       {
         text: '指南',
-        children: [{
+        icon: "mynaui:compass",
+        items: [{
           text: "快速集成",
-          link: "/guide/api"
+          link: "/notes/guide/api",
+          icon: "mynaui:code",
         }, {
           text: "视频配置",
-          link: "/guide/template-setting"
+          link: "/notes/guide/template-setting",
+          icon: "mynaui:cog"
         }],
       },
       {
         text: 'AI智能体',
-        children: [{
+        icon: "mynaui:annoyed-ghost",
+        items: [{
           text: "财经短视频",
-          link: "https://www.coze.cn/store/agent/7448898272279871503"
+          link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-cj.html",
+          icon: "mynaui:globe"
         }, {
           text: "NBA短视频",
-          link: "https://www.coze.cn/store/agent/7449190192574971916"
+          link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-sport.html",
+          icon: "mynaui:brand-dribbble"
         }],
       },
-    ],
+    ]
   }),
 
   bundler: viteBundler(),
