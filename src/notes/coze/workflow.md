@@ -22,6 +22,21 @@ permalink: /article/lvdjflxg/
 ### 基础链路配置
 ![整体配置链路](/imgs/coze/workflow-2.png)
 
+![能力说明，方便AI理解入参](/imgs/coze/workflow-2-1.png)
+::: important 描述
+
+::: code-tabs
+@tab 工作流描述.txt
+
+```sh
+根据用户提供的标题、解说文案，制作视频（.mp4）
+入参如下：
+title = 标题内容
+content = 解说文案内容
+isQueryStatus = true(仅查询制作进度)
+```
+:::
+
 ### 参数说明
 ![入参配置](/imgs/coze/workflow-3.png)
 
