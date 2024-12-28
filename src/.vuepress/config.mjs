@@ -28,23 +28,44 @@ export default defineUserConfig({
         }, {
           text: "视频配置",
           link: "/notes/guide/template-setting",
-          icon: "mynaui:cog"
+          icon: "mynaui:config"
         }],
       },
       {
         text: 'AI智能体',
         icon: "mynaui:annoyed-ghost",
-        items: [{
-          text: "财经短视频",
-          link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-cj.html",
-          icon: "mynaui:globe"
-        }, {
-          text: "NBA短视频",
-          link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-sport.html",
-          icon: "mynaui:brand-dribbble"
-        }],
+        items: [
+          {
+            text: "Coze开发",
+            // icon: "mynaui:box",
+            items: [
+              {
+                text: "工作流",
+                link: "/notes/coze/workflow",
+                icon: "mynaui:desktop"
+              }
+            ]
+          },
+          {
+            text: "Coze案例",
+            items: [{
+              text: "财经短视频",
+              link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-cj.html",
+              icon: "mynaui:globe"
+            }, {
+              text: "NBA短视频",
+              link: "https://img.qulang8.cn/ql/enterprise/apps/chat/chat-sport.html",
+              icon: "mynaui:brand-dribbble"
+            }]
+          }],
       },
-    ]
+    ],
+    plugins: {
+      shiki: {
+        theme: { light: "vitesse-dark", dark: "vitesse-dark" },
+        languages: ["javascript", "typescript", "vue", "bash", "sh"],
+      }
+    }
   }),
 
   bundler: viteBundler(),
