@@ -67,7 +67,6 @@ export default defineUserConfig({
       }
     }
   }),
-
   bundler: viteBundler(),
   plugins: [
     markdownImagePlugin({

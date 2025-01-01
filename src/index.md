@@ -8,7 +8,7 @@ config:
     hero:
       name: 趣浪吧
       tagline: 轻松制作视频
-      text: 自动配音、匹配字幕，API访问，批量生成短视频
+      text: 自动配音匹配字幕，API访问批量生成短视频
       actions:
         - text: 快速集成 →
           link: /notes/guide/api
@@ -36,6 +36,11 @@ config:
       - title: 快速发布
         details: 视频无下载再上传，视频访问地址直接输出，轻松呈现至终端。
         icon: mynaui:send-solid
+  -
+    type : image-text
+    title: 关注【趣浪吧】公众号
+    description: 微信扫码获取API-Token，轻松调用Api请求制作短视频
+    image: /imgs/wx-gzh.jpg
 ---
 
 <!-- [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page -->
