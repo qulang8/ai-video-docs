@@ -38,8 +38,8 @@ config:
         icon: mynaui:send-solid
   -
     type : image-text
-    title: 关注【趣浪吧】公众号
-    description: 微信扫码获取API-Token，轻松调用Api请求制作短视频
+    title: 关注【趣浪吧】微信公众号
+    description: 扫码获取API-Token，轻松调用Api请求制作短视频
     image: /imgs/wx-gzh.jpg
 ---
 
