@@ -27,8 +27,19 @@ export default defineUserConfig({
           icon: "mynaui:code",
         }, {
           text: "视频配置",
-          link: "/notes/guide/template-setting",
-          icon: "mynaui:config"
+          // icon: "mynaui:config",
+          items: [
+            {
+              text: "内容配置",
+              icon: "mynaui:file-text",
+              link: "/notes/guide/video-content-setting",
+            },
+            {
+              text: "组件编排",
+              icon: "mynaui:film",
+              link: "/notes/guide/template-setting",
+            }
+          ]
         }],
       },
       {
