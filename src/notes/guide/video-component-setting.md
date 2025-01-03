@@ -12,7 +12,7 @@ permalink: /article/15tl5y3s/
 [API请求方式说明](api.html#视频制作api)
 :::
 
-## 视频元素特效
+## 视频背景特效
 ### 背景图片控制（bgImg）
 ::: tip
 **背景视频控制**
@@ -21,6 +21,8 @@ permalink: /article/15tl5y3s/
 
 参数类型：**Object**
 :::
+
+![背景图片](/imgs/components/bg-img.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |                                              说明 |
@@ -42,6 +44,8 @@ permalink: /article/15tl5y3s/
 参数类型：**Object**
 :::
 
+![背景遮罩](/imgs/components/bg-mask.png)
+
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |                                                                  说明 |
 | :------- | :------- | :----- | --------------------------------------------------------------------: |
@@ -57,6 +61,8 @@ permalink: /article/15tl5y3s/
 
 参数类型：**Object**
 :::
+
+![背景视频](/imgs/components/bg-video.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |         说明 |
@@ -74,6 +80,8 @@ permalink: /article/15tl5y3s/
 参数类型：**Object**
 :::
 
+![图片弹框](/imgs/components/alert-img.png)
+
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |             说明 |
 | :------- | :------- | :----- | ---------------: |
@@ -88,6 +96,8 @@ permalink: /article/15tl5y3s/
 
 参数类型：**Object**
 :::
+
+![动画相册](/imgs/components/animated-mini-gallery.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |     说明 |
@@ -106,6 +116,8 @@ permalink: /article/15tl5y3s/
 参数类型：**Object**
 :::
 
+![词云特效](/imgs/components/wordcloud.png)
+
 ::: details 配置详情
 | 参数名称  | 参数类型 | 默认值        |              说明 |
 | :-------- | :------- | :------------ | ----------------: |
@@ -120,6 +132,8 @@ permalink: /article/15tl5y3s/
 
 参数类型：**Object**
 :::
+
+![翻滚内容](/imgs/components/rolling-text.png)
 
 ::: details 配置详情
 | 参数名称    | 参数类型 | 默认值  |             说明 |

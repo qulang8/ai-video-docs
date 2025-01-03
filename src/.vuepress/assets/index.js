@@ -26,6 +26,7 @@ function setStatistics(w, d, s, q, i) {
       await sleep(1e2);
       setCopyright("Copyright © 2015 - 2025 上海趣浪电子商务有限公司");
     };
+    setCopyright("Copyright © 2015 - 2025 上海趣浪电子商务有限公司");
     setStatistics(window, document, "script", "aplus_queue", "203467608");
   } catch (error) { }
 })();

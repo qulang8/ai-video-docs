@@ -37,7 +37,7 @@ export default defineUserConfig({
             {
               text: "组件编排",
               icon: "mynaui:film",
-              link: "/notes/guide/template-setting",
+              link: "/notes/guide/video-component-setting",
             }
           ]
         }],

@@ -13,7 +13,7 @@ config:
         - text: 快速集成 →
           link: /notes/guide/api
         - text: 视频配置
-          link: /notes/guide/template-setting
+          link: /notes/guide/video-content-setting
   
   -
     type : features

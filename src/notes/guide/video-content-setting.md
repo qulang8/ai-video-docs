@@ -22,6 +22,8 @@ permalink: /article/oqw5km4q/
 参数类型：**String / Object**
 :::
 
+![标题](/imgs/content/title.png)
+
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |       说明 |
 | :------- | :------- | :----- | ---------: |
@@ -45,12 +47,14 @@ permalink: /article/oqw5km4q/
 
 ### 内容关键词（keywordList）
 ::: tip
-**内容关键词**
+**内容关键词，主要用于配音、字幕设置**
 
 参数名称：**keywordList**
 
 参数类型：**[]String**
 :::
+
+![配音文案](/imgs/content/content.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |       说明 |
@@ -60,12 +64,14 @@ permalink: /article/oqw5km4q/
 
 ### 图片资源（imgList）
 ::: important
-**图片资源**
+**图片资源，如果视频组件未配置定制图片资源，会从这里加载默认图片**
 
 参数名称：**imgList**
 
 参数类型：**[]String**
 :::
+
+![图片资源](/imgs/components/alert-img.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |        说明 |
@@ -75,12 +81,14 @@ permalink: /article/oqw5km4q/
 
 ### 视频资源（videoList）
 ::: important 
-**视频元素资源**
+**视频元素资源，如果视频组件未配置定制视频资源，会从这里加载默认视频**
 
 参数名称：**videoList**
 
 参数类型：**[]String**
 :::
+
+![视频资源](/imgs/components/bg-video.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |        说明 |
