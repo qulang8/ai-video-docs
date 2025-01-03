@@ -9,7 +9,9 @@ permalink: /article/oqw5km4q/
 
 通过Api访问，可以轻松控制自有账号，批量进行短视频的制作。
 
-[API请求方式说明](api.html#视频制作api)
+[> API请求方式说明](api.html#视频制作api)
+
+<a href="https://v.douyin.com/iUDH2AXN" target="_blank">> 抖音视频案例</a>
 :::
 
 ## 内容

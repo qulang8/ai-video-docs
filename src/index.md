@@ -39,7 +39,7 @@ config:
   -
     type : image-text
     title: 关注【趣浪吧】微信公众号
-    description: 扫码获取API-Token，轻松调用Api请求制作短视频
+    description: 扫码获取API-Token，轻松调用Api请求制作短视频<br/><a href="https://v.douyin.com/iUDH2AXN" target="_blank">> 抖音视频案例
     image: /imgs/wx-gzh.jpg
 ---
 
