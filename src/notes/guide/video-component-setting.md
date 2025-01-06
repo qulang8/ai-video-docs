@@ -39,7 +39,7 @@ permalink: /article/15tl5y3s/
 
 ### 背景遮罩控制（imgMask）
 ::: tip
-**背景视频控制**
+**背景遮罩控制**
 
 参数名称：**imgMask**
 
@@ -67,9 +67,12 @@ permalink: /article/15tl5y3s/
 ![背景视频](/imgs/components/bg-video.png)
 
 ::: details 配置详情
-| 参数名称 | 参数类型 | 默认值 |         说明 |
-| :------- | :------- | :----- | -----------: |
-| padding  | String   | 0      | 上下左右边距 |
+| 参数名称   | 参数类型 | 默认值 |                                                                                                   说明 |
+| :--------- | :------- | :----- | -----------------------------------------------------------------------------------------------------: |
+| videoList  | []String | []     | 待随机选择的视频列表<br/>不配置，则读取[根视频资源列表](video-content-setting.html#视频资源-videolist) |
+| padding    | String   | 0      |                                                                      上下左右边距<br />垂直居中(50% 0) |
+| randomPlay | Boolean  | true   |                                                                                   随机视频开始时间播放 |
+| complete   | Boolean  | false  |                                                                                       是否完整播放视频 |
 :::
 
 ## 图片元素特效
@@ -109,6 +112,60 @@ permalink: /article/15tl5y3s/
 :::
 
 ## 内容特效
+### 标题（baseTitle）
+::: tip
+**标题特效**
+
+参数名称：**baseTitle**
+
+参数类型：**Object**
+:::
+
+![标题特效](/imgs/components/base-title.png)
+
+::: details 配置详情
+| 参数名称    | 参数类型 | 默认值 |                 说明 |
+| :---------- | :------- | :----- | -------------------: |
+| wordList    | []String | []     | 每行一句话，居中显示 |
+| displayDate | Boolean  | false  |     是否显示制作日期 |
+:::
+
+### 配音字幕（captions）
+::: tip
+**字幕特效**
+
+参数名称：**captions**
+
+参数类型：**Object**
+
+[> 解说文案设置](video-content-setting.html#解说文案-content)
+:::
+
+![字幕特效](/imgs/components/captions.png)
+
+::: details 配置详情
+| 参数名称 | 参数类型 | 默认值 |         说明 |
+| :------- | :------- | :----- | -----------: |
+| display  | Boolean  | true   | 是否显示字幕 |
+:::
+
+### 结尾致辞（slogn）
+::: tip
+**结尾致辞**
+
+参数名称：**slogn**
+
+参数类型：**Object**
+:::
+
+![结尾致辞特效](/imgs/components/slogn.png)
+
+::: details 配置详情
+| 参数名称 | 参数类型 | 默认值 |                 说明 |
+| :------- | :------- | :----- | -------------------: |
+| wordList | []String | []     | 每行一句话，居中显示 |
+:::
+
 ### 词云（wordCloud）
 ::: tip
 **词云特效**
