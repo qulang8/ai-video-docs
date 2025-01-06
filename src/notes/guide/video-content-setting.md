@@ -41,6 +41,8 @@ permalink: /article/oqw5km4q/
 参数类型：**String / Object**
 :::
 
+![配音文案](/imgs/content/content.png)
+
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |           说明 |
 | :------- | :------- | :----- | -------------: |
@@ -56,7 +58,7 @@ permalink: /article/oqw5km4q/
 参数类型：**[]String**
 :::
 
-![配音文案](/imgs/content/content.png)
+![配音文案](/imgs/components/wordcloud.png)
 
 ::: details 配置详情
 | 参数名称 | 参数类型 | 默认值 |       说明 |

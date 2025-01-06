@@ -124,10 +124,10 @@ permalink: /article/15tl5y3s/
 ![标题特效](/imgs/components/base-title.png)
 
 ::: details 配置详情
-| 参数名称    | 参数类型 | 默认值 |                 说明 |
-| :---------- | :------- | :----- | -------------------: |
-| wordList    | []String | []     | 每行一句话，居中显示 |
-| displayDate | Boolean  | false  |     是否显示制作日期 |
+| 参数名称    | 参数类型 | 默认值 |                                                                                       说明 |
+| :---------- | :------- | :----- | -----------------------------------------------------------------------------------------: |
+| wordList    | []String | []     | 每行一句话，居中显示<br/>不配置，则选择[根视频标题](video-content-setting.html#标题-title) |
+| displayDate | Boolean  | false  |                                                                           是否显示制作日期 |
 :::
 
 ### 配音字幕（captions）
