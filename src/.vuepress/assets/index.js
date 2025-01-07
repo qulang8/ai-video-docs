@@ -5,6 +5,13 @@ function setCopyright(content = "Copyright © 2015 - 2025 上海趣浪电子商�
   $dom && ($dom.innerHTML = content);
 }
 
+async function setSidebar() {
+  const $dom = document.querySelector(".aside .aside-content .spacer");
+  $dom && ($dom.innerHTML = `<div class="sidebar-gzh"><img src="/imgs/wx-gzh.jpg" /></div>`);
+  await sleep(1e2);
+  setSidebar();
+}
+
 function setStatistics(w, d, s, q, i) {
   w[q] = w[q] || [];
   var f = d.getElementsByTagName(s)[0], j = d.createElement(s);
@@ -28,5 +35,6 @@ function setStatistics(w, d, s, q, i) {
     };
     setCopyright("Copyright © 2015 - 2025 上海趣浪电子商务有限公司");
     setStatistics(window, document, "script", "aplus_queue", "203467608");
+    setSidebar();
   } catch (error) { }
 })();

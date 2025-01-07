@@ -19,7 +19,12 @@ export default defineUserConfig({
         icon: "mynaui:home"
       },
       {
-        text: '指南',
+        text: "场景案例",
+        link: "/notes/examples/video",
+        icon: "mynaui:video"
+      },
+      {
+        text: '集成指南',
         icon: "mynaui:compass",
         items: [{
           text: "快速集成",

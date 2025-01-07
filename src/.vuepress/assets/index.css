@@ -1,3 +1,10 @@
 .vp-breadcrumb {
   display: none !important;
 }
+
+.sidebar-gzh {
+  text-align: center;
+  img {
+    width: 100%;
+  }
+}
