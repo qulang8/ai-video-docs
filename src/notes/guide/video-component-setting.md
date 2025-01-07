@@ -55,6 +55,25 @@ permalink: /article/15tl5y3s/
 | delay    | Number   | 0      |                                                       延迟渲染<br/>ms |
 :::
 
+### 背景音频控制（bgAudio）
+::: tip
+**背景音频控制**
+
+参数名称：**bgAudio**
+
+参数类型：**Object**
+:::
+
+![背景视频](/imgs/components/captions.png)
+
+::: details 配置详情
+| 参数名称  | 参数类型 | 默认值 |                 说明 |
+| :-------- | :------- | :----- | -------------------: |
+| useVideo  | Boolean  | false  |   使用背景视频的音效 |
+| complete  | Boolean  | false  |     是否完整播放音频 |
+| audioList | []String | []     | 待随机选择的音频列表 |
+:::
+
 ### 背景视频控制（bgVideo）
 ::: tip
 **背景视频控制**
@@ -147,6 +166,28 @@ permalink: /article/15tl5y3s/
 | 参数名称 | 参数类型 | 默认值 |         说明 |
 | :------- | :------- | :----- | -----------: |
 | display  | Boolean  | true   | 是否显示字幕 |
+:::
+
+### 内容提示（alertWord）
+::: tip
+**内容介绍特效**
+
+参数名称：**alertWord**
+
+参数类型：**Object**
+:::
+
+![内容介绍提示](/imgs/components/alert-word.png)
+
+::: details 配置详情
+| 参数名称 | 参数类型 | 默认值     |                                              说明 |
+| :------- | :------- | :--------- | ------------------------------------------------: |
+| wordList | []String | []         |                                  待渲染的介绍文案 |
+| iconName | String   | location   |                icon<br />location、music、comment |
+| padding  | String   | 135% 10% 0 |                                      上下左右边距 |
+| delay    | Number   | 0          |                                   延迟渲染<br/>ms |
+| gapTS    | Number   | 5000       |                           每组文案停留时长<br/>ms |
+| loop     | Boolean  | true       | 内容循环<br/>所有内容展示后，自动从第一组继续展示 |
 :::
 
 ### 结尾致辞（slogn）
