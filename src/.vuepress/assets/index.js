@@ -7,7 +7,7 @@ function setCopyright(content = "Copyright © 2015 - 2025 上海趣浪电子商�
 
 async function setSidebar() {
   const $dom = document.querySelector(".aside .aside-content .spacer");
-  $dom && ($dom.innerHTML = `<div class="sidebar-gzh"><img src="/imgs/wx-gzh.jpg" /></div>`);
+  $dom && ($dom.innerHTML = `<div class="sidebar-gzh"></div>`);
   await sleep(1e2);
   setSidebar();
 }
