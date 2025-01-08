@@ -3,15 +3,18 @@ import { plumeTheme } from 'vuepress-theme-plume'
 import { viteBundler } from '@vuepress/bundler-vite';
 import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 
-const isProd = process.env.NODE_ENV === "production";
+const isProd = process.env.NODE_ENV === "production",
+  isGithub = true;
+// isGithub = false;
 
 export default defineUserConfig({
   lang: "zh-CN",
   title: "趣浪吧",
-  description: "趣浪吧-轻松制作短视频",
-  base: isProd ? "/ai-video-docs/" : "/",
+  description: "趣浪吧-轻松制作短视频，api制作生成视频，json制作生成视频，海量视频制作模板。视频生成、视频制作轻松搞定！",
+  base: isProd ? (isGithub ? "/ai-video-docs/" : "") : "/",
   public: "src/public",
   theme: plumeTheme({
+    hostname: "https://qulang8.cn",
     navbar: [
       {
         text: "首页",
