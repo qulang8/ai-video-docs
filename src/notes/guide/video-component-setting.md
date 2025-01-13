@@ -168,6 +168,31 @@ permalink: /article/15tl5y3s/
 | display  | Boolean  | true   | 是否显示字幕 |
 :::
 
+### 文案配置（wordList）
+::: tip
+**文案内容特效**
+
+参数名称：**wordList**
+
+参数类型：**Object**
+:::
+
+![内容介绍提示](/imgs/components/word-list.png)
+
+::: details 配置详情
+| 参数名称        | 参数类型   | 默认值                                                          |                说明 |
+| :-------------- | :--------- | :-------------------------------------------------------------- | ------------------: |
+| styles          | Object     | {fontSize: "48px" ,  padding: "10%", textAlign: "center"}<br /> |   CSS样式，全局生效 |
+| delay           | Number     | 0                                                               |     延迟渲染<br/>ms |
+| keepTS          | Number     | 600000                                                          | 文案停留时长<br/>ms |
+| itemList        | []wordItem | []                                                              |    待渲染的文案内容 |
+| wordItem.word   | String     | ""                                                              | 文案内容文字<br/>ms |
+| wordItem.delay  | Number     | 0                                                               |     延迟渲染<br/>ms |
+| wordItem.keepTS | Number     | 600000                                                          | 文案停留时长<br/>ms |
+| wordItem.styles | Object     | {}                                                              | CSS样式，当前行生效 |
+:::
+
+
 ### 内容提示（alertWord）
 ::: tip
 **内容介绍特效**

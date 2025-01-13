@@ -5,7 +5,7 @@ import { markdownImagePlugin } from '@vuepress/plugin-markdown-image';
 
 const isProd = process.env.NODE_ENV === "production",
   isGithub = true;
-// isGithub = false;
+  // isGithub = false;
 
 export default defineUserConfig({
   lang: "zh-CN",
