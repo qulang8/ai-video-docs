@@ -163,9 +163,10 @@ permalink: /article/15tl5y3s/
 ![字幕特效](/imgs/components/captions.png)
 
 ::: details 配置详情
-| 参数名称 | 参数类型 | 默认值 |         说明 |
-| :------- | :------- | :----- | -----------: |
-| display  | Boolean  | true   | 是否显示字幕 |
+| 参数名称 | 参数类型 | 默认值                                          |                                                                                      说明 |
+| :------- | :------- | :---------------------------------------------- | ----------------------------------------------------------------------------------------: |
+| display  | Boolean  | true                                            |                                                                              是否显示字幕 |
+| styles   | Object   | {}<br/>width:"80%"<br/>top:"75%"<br/>left:"10%" | 字幕样式设置 eg：<br/>color:"#fff"<br/>background:"rgba(0,0,0,.6)"<br/>textShadow:"none" |
 :::
 
 ### 文案配置（wordList）
